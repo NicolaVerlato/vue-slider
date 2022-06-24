@@ -47,6 +47,9 @@ var app = new Vue(
                     this.currentSlide = this.slides.length - 1; 
                 }
             },
+            setActive(index) {
+                this.currentSlide = index;
+            }
         }
     }
 )
